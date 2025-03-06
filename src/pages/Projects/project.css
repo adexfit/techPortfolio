@@ -1,0 +1,57 @@
+/* ================    Portfolio  ================= */
+
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project {
+  text-align: center;
+  border: 2px solid var(--color-bg1);
+  transition: var(--transition);
+  border-radius: 8px;
+}
+
+.proj-case-studues {
+  background: var(--color-bg1);
+}
+
+.proj-case-studues:hover {
+  background: transparent;
+  /* border-color: var(--color-primary); */
+}
+
+.project__info {
+  padding: 2rem;
+}
+
+.project__info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+  /* height: 5rem; */
+}
+
+.hoverLink:hover {
+  text-decoration: underline;
+}
+
+.portfolio__container {
+  grid-template-columns: 1fr;
+}
+
+@media only screen and (max-width: 480px) {
+  .portfolio__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

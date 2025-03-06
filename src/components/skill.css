@@ -1,0 +1,38 @@
+.skills {
+  background: var(--color-bg1);
+}
+
+.skills .progress .skill {
+  padding: 0.6rem 0;
+  margin: 0 0 0.1rem 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.skills .progress-bar {
+  height: 10px;
+  transition: 0.9s;
+  background: var(--color-primary);
+}
+
+.progress-bar {
+  justify-content: center;
+  overflow: hidden;
+  color: var(--color-white);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.skills__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+}
