@@ -14,7 +14,7 @@ import ticketshot from "../assets/ticketshot.png";
 import colorcoverpic from "../assets/colorcoverpic.png";
 import close from "../assets/close.svg";
 import contact from "../assets/contact.svg";
-import AdeboyeElishaResume2024 from "../assets/AdeboyeElishaResume2024.pdf";
+import AdeboyeElishaFrontendResume05 from "../assets/AdeboyeElishaFrontendResume05.pdf";
 
 export const assets = {
   illustrate3,
@@ -33,5 +33,5 @@ export const assets = {
   colorcoverpic,
   close,
   contact,
-  AdeboyeElishaResume2024,
+  AdeboyeElishaFrontendResume05,
 };

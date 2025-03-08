@@ -101,7 +101,7 @@ const Navbar = () => {
               Download
             </a> */}
             <a
-              href={`${assets.AdeboyeElishaResume2024}`}
+              href={`${assets.AdeboyeElishaFrontendResume05}`}
               target="_blank"
               onClick={closeMenu}
             >
