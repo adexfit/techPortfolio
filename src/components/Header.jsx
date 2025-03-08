@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { assets } from "../assets/assets";
 import AppScrollContext from "../contexts/AppScrollContext";
+import { projectList } from "../data/data";
 
 const Header = () => {
   const { scrollToContact, scrollToDivRef } = useContext(AppScrollContext);
@@ -33,39 +34,33 @@ const Header = () => {
             </div>
             <ul className="menu">
               <li className="menu-item">
-                <Link>Home</Link>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
               <div
                 className="menu-item menu-item-has-children .active"
                 onClick={openCloseSubMenu}
               >
-                <Link data-toggle="sub-menu">
+                <NavLink data-toggle="sub-menu">
                   Projects<i className="plus"></i>
-                </Link>
+                </NavLink>
                 <ul className="sub-menu">
-                  <li className="menu-item">
-                    <Link
-                      to={"https://github.com/adexfit/react-note-app/tree/main"}
-                    >
-                      Trivia App
-                    </Link>
-                  </li>
-                  <li className="menu-item">
-                    <Link to={"https://github.com/adexfit/TickectGenerator"}>
-                      {" "}
-                      Ticket Generator
-                    </Link>
-                  </li>
-                  <li className="menu-item">
-                    <Link to={"https://github.com/adexfit/react-note-app"}>
-                      Note App
-                    </Link>
-                  </li>
-                  <li className="menu-item">
-                    <Link to={"https://github.com/adexfit/colorGame"}>
-                      Color Game
-                    </Link>
-                  </li>
+                  {projectList.map((proj) => (
+                    // <li className="menu-item" key={proj.title}>
+                    //   <Link to={proj.github} target="_blank">
+                    //     {proj.title}
+                    //   </Link>
+                    // </li>
+                    <li className="menu-item" key={proj.title}>
+                      <a
+                        href="https://external-link1.com"
+                        // href={`${proj.github}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {proj.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
@@ -73,7 +68,9 @@ const Header = () => {
                 <Link>Contact</Link>
               </li>
               <li className="menu-item">
-                <Link>Download CV</Link>
+                <Link to={assets.AdeboyeElishaResume2024} target="_blank">
+                  Download CV
+                </Link>
               </li>
             </ul>
           </nav>

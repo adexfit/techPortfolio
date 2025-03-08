@@ -1,59 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
 import "../Projects/project.css";
+import { projectList } from "../../data/data";
+import AppScrollContext from "../../contexts/AppScrollContext";
 
 const Project = () => {
-  const projectList = [
-    {
-      title: "Trivia App",
-      desc: "A nice react trivia game that awards money for questions answered.",
-      imgSrc: `${assets.trivia}`,
-      github: "https://github.com/adexfit/react-note-app/tree/main",
-      netlify: "https://adex-react-quiz.netlify.app/",
-      hosted: true,
-    },
-    {
-      title: "Ticket",
-      desc: "A responsive ticket generator designed using react js",
-      imgSrc: `${assets.ticketshot}`,
-      github: "https://github.com/adexfit/TickectGenerator",
-      netlify: "https://adexticketgen.netlify.app/",
-      hosted: true,
-    },
-    {
-      title: "React Note App",
-      desc: "A react note app with all the CRUD fuctionalities. This app makes an API call to a JSON server which mimics the backend",
-      imgSrc: `${assets.noteapp}`,
-      github: "https://github.com/adexfit/react-note-app",
-      netlify: "",
-      hosted: false,
-    },
-    {
-      title: "React Calculator",
-      desc: "A react Calculator with all necessary functionalities",
-      imgSrc: `${assets.calculator}`,
-      github: "https://github.com/adexfit/reactCalculator",
-      netlify: "https://adex-react-calculator.netlify.app/",
-      hosted: true,
-    },
-    {
-      title: "Color Game",
-      desc: "A react color game that allows you to test your vision",
-      imgSrc: `${assets.colorcoverpic}`,
-      github: "https://github.com/adexfit/colorGame",
-      netlify: "https://adexfitcolorgame.netlify.app/",
-      hosted: true,
-    },
-  ];
+  const { scrollToContact, scrollToDivRef, scrollToProject, scrollToProjRef } =
+    useContext(AppScrollContext);
   return (
-    <section className="portfolio">
+    <section className="portfolio" ref={scrollToProjRef}>
       <h2> Projects</h2>
       <div className="container portfolio__container">
         {projectList.map((proj) => (
           <article
             className="project proj-case-studues"
-            id="egolending"
+            id={proj.title}
             data-name="ux"
             key={proj.title}
           >

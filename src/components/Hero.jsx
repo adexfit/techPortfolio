@@ -8,10 +8,11 @@ import { FaGithub } from "react-icons/fa";
 import AppScrollContext from "../contexts/AppScrollContext";
 
 const Hero = () => {
-  const { scrollToContact, scrollToDivRef } = useContext(AppScrollContext);
+  const { scrollToContact, scrollToDivRef, scrollToTop, scrollToTopRef } =
+    useContext(AppScrollContext);
   return (
     <>
-      <header>
+      <header ref={scrollToTopRef}>
         <div className="container header__container">
           <div className="header__left">
             <h1>{MyName}</h1>

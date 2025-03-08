@@ -8,11 +8,20 @@ import { AppScrollProvider } from "./contexts/AppScrollContext";
 
 function App() {
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      document
-        .querySelector(".header")
-        .classList.toggle("window-scroll", window.scrollY > 0);
+    window.addEventListener("scroll", function () {
+      const navbar = document.querySelector(".navbar");
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
     });
+
+    //   window.addEventListener("scroll", () => {
+    //     document
+    //       .querySelector(".header")
+    //       .classList.toggle("window-scroll", window.scrollY > 0);
+    //   });
   }, [window.scrollY]);
 
   return (
