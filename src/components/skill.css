@@ -2,6 +2,10 @@
   background: var(--color-bg1);
 }
 
+.skill__card p {
+  font-weight: 300;
+}
+
 .skills .progress .skill {
   padding: 0.6rem 0;
   margin: 0 0 0.1rem 0;

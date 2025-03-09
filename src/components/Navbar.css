@@ -107,6 +107,7 @@
     right: -100%; /* Initially hidden */
     width: 250px;
     height: 100vh;
+    /* background: rgba(0, 0, 0, 0.9);  #1f2641 */
     background: rgba(0, 0, 0, 0.9);
     text-align: center;
     padding-top: 54px;
