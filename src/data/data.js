@@ -34,7 +34,7 @@ export const projectList = [
     title: "Trivia App",
     desc: "A nice react trivia game that awards money for questions answered.",
     imgSrc: `${assets.trivia}`,
-    github: "https://github.com/adexfit/react-note-app/tree/main",
+    github: "https://github.com/adexfit/Trivia",
     netlify: "https://adex-react-quiz.netlify.app/",
     hosted: true,
   },
