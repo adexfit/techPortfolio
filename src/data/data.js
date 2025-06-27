@@ -31,11 +31,11 @@ export const mySkills = [
 
 export const projectList = [
   {
-    title: "Trivia App",
-    desc: "A nice react trivia game that awards money for questions answered.",
-    imgSrc: `${assets.trivia}`,
-    github: "https://github.com/adexfit/Trivia",
-    netlify: "https://adex-react-quiz.netlify.app/",
+    title: "Twitter Clone",
+    desc: "A MEARN stack twitter app designed using Daisy UI, Tailwind css, Tanstack Query",
+    imgSrc: `${assets.twiclone}`,
+    github: "https://github.com/adexfit/twitterclone",
+    netlify: "https://twitterclone-274y.onrender.com/login",
     hosted: true,
   },
   {
