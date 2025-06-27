@@ -16,6 +16,7 @@ import close from "../assets/close.svg";
 import contact from "../assets/contact.svg";
 import AdeboyeElishaFrontendResume05 from "../assets/AdeboyeElishaFrontendResume05.pdf";
 import twiclone from "../assets/twiclone.png";
+import adexai from "../assets/adexai.png";
 
 export const assets = {
   illustrate3,
@@ -36,4 +37,5 @@ export const assets = {
   contact,
   AdeboyeElishaFrontendResume05,
   twiclone,
+  adexai,
 };

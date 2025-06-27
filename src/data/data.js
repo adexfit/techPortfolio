@@ -47,6 +47,14 @@ export const projectList = [
     hosted: true,
   },
   {
+    title: "Chrome Origin Trials",
+    desc: "I participated in the chrome origin trials program where I implemented the translation API and the Summarizer API",
+    imgSrc: `${assets.adexai}`,
+    github: "https://github.com/adexfit/adexai",
+    netlify: "https://adexai.netlify.app/",
+    hosted: true,
+  },
+  {
     title: "React Note App",
     desc: "A react note app with all the CRUD fuctionalities. This app makes an API call to a JSON server which mimics the backend",
     imgSrc: `${assets.noteapp}`,
