@@ -30,7 +30,7 @@ const Project = () => {
                 className="btn btn-primary"
                 target="_blank"
               >
-                Read More
+                Github
               </Link>{" "}
               <br />
               <br />
