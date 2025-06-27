@@ -7,7 +7,7 @@ export const HeroText =
 export const MyName = "Hi, I'm Elisha";
 
 export const mySkills = [
-  { name: "React", imgSrc: `${assets.react}`, alt: "React Img" },
+  { name: "React/NextJS", imgSrc: `${assets.react}`, alt: "React Img" },
   {
     name: "Javascript",
     imgSrc: `${assets.javascript}`,
