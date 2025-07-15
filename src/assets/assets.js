@@ -17,6 +17,7 @@ import contact from "../assets/contact.svg";
 import AdeboyeElishaFrontendResume05 from "../assets/AdeboyeElishaFrontendResume05.pdf";
 import twiclone from "../assets/twiclone.png";
 import adexai from "../assets/adexai.png";
+import minicommerce from "../assets/minicommerce.png";
 
 export const assets = {
   illustrate3,
@@ -38,4 +39,5 @@ export const assets = {
   AdeboyeElishaFrontendResume05,
   twiclone,
   adexai,
+  minicommerce,
 };

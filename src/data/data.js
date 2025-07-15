@@ -31,6 +31,14 @@ export const mySkills = [
 
 export const projectList = [
   {
+    title: "MiniCommerce",
+    desc: "An Ecommerce Furniture App built with Next Js, Zustand, React Query and Tailwindcss",
+    imgSrc: `${assets.minicommerce}`,
+    github: "https://github.com/adexfit/minicommerce",
+    netlify: "https://stupendous-cuchufli-cac44d.netlify.app/",
+    hosted: true,
+  },
+  {
     title: "Twitter Clone",
     desc: "A MEARN stack twitter app designed using Daisy UI, Tailwind css, Tanstack Query",
     imgSrc: `${assets.twiclone}`,
