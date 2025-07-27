@@ -47,6 +47,14 @@ export const projectList = [
     hosted: true,
   },
   {
+    title: "Next JS Task Manager App",
+    desc: "A fully working task manager built with Next JS, Typescript, Tailwindcss and Zustand",
+    imgSrc: `${assets.taskmanager}`,
+    github: "https://github.com/adexfit/nexttaskmanager",
+    netlify: "https://adextaskmanager.netlify.app/",
+    hosted: true,
+  },
+  {
     title: "Ticket",
     desc: "A responsive ticket generator designed using react js",
     imgSrc: `${assets.ticketshot}`,
@@ -63,14 +71,6 @@ export const projectList = [
     hosted: true,
   },
   {
-    title: "React Note App",
-    desc: "A react note app with all the CRUD fuctionalities. This app makes an API call to a JSON server which mimics the backend",
-    imgSrc: `${assets.noteapp}`,
-    github: "https://github.com/adexfit/react-note-app",
-    netlify: "",
-    hosted: false,
-  },
-  {
     title: "React Calculator",
     desc: "A react Calculator with all necessary functionalities",
     imgSrc: `${assets.calculator}`,
@@ -78,12 +78,13 @@ export const projectList = [
     netlify: "https://adex-react-calculator.netlify.app/",
     hosted: true,
   },
-  {
-    title: "Color Game",
-    desc: "A react color game that allows you to test your vision",
-    imgSrc: `${assets.colorcoverpic}`,
-    github: "https://github.com/adexfit/colorGame",
-    netlify: "https://adexfitcolorgame.netlify.app/",
-    hosted: true,
-  },
 ];
+
+// {
+//   title: "Color Game",
+//   desc: "A react color game that allows you to test your vision",
+//   imgSrc: `${assets.colorcoverpic}`,
+//   github: "https://github.com/adexfit/colorGame",
+//   netlify: "https://adexfitcolorgame.netlify.app/",
+//   hosted: true,
+// },

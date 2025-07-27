@@ -18,6 +18,7 @@ import AdeboyeElishaFrontendResume05 from "../assets/AdeboyeElishaFrontendResume
 import twiclone from "../assets/twiclone.png";
 import adexai from "../assets/adexai.png";
 import minicommerce from "../assets/minicommerce.png";
+import taskmanager from "../assets/taskmanager.png"
 
 export const assets = {
   illustrate3,
@@ -40,4 +41,5 @@ export const assets = {
   twiclone,
   adexai,
   minicommerce,
+  taskmanager,
 };
