@@ -70,14 +70,6 @@ export const projectList = [
     netlify: "https://adexai.netlify.app/",
     hosted: true,
   },
-  {
-    title: "React Calculator",
-    desc: "A react Calculator with all necessary functionalities",
-    imgSrc: `${assets.calculator}`,
-    github: "https://github.com/adexfit/reactCalculator",
-    netlify: "https://adex-react-calculator.netlify.app/",
-    hosted: true,
-  },
 ];
 
 // {
@@ -86,5 +78,14 @@ export const projectList = [
 //   imgSrc: `${assets.colorcoverpic}`,
 //   github: "https://github.com/adexfit/colorGame",
 //   netlify: "https://adexfitcolorgame.netlify.app/",
+//   hosted: true,
+// },
+
+// {
+//   title: "React Calculator",
+//   desc: "A react Calculator with all necessary functionalities",
+//   imgSrc: `${assets.calculator}`,
+//   github: "https://github.com/adexfit/reactCalculator",
+//   netlify: "https://adex-react-calculator.netlify.app/",
 //   hosted: true,
 // },
